@@ -3,7 +3,7 @@ from langchain.prompts import PromptTemplate
 import os
 import re
 
-llm = Ollama(model="gemma3:1b")
+llm = Ollama(model="llama3.2:latest")
 
 # Load schema from .sql file
 def load_schema(path: str = "officedb.sql") -> str:
